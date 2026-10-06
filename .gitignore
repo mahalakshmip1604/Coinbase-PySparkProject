@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+.venv-wsl/
+
+# Python
+__pycache__/
+*.pyc
+
+# Spark output and local artifacts
+out/
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
